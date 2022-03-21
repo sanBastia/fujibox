@@ -36,7 +36,7 @@ export const Nav: FunctionComponent<NavProps> = () => {
             <Box>
               <Image
                 w={200}
-                src="/images/logo/fujibox-logo.jpg"
+                src="/images/logo/fujibox-logo.png"
                 alt="fujibox-logo"
               />
             </Box>

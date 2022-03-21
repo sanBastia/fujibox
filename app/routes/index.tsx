@@ -1,4 +1,12 @@
-import { Carousel, Nav, NewProduct, WhatsappButton } from '~/components'
+import {
+  ArticleList,
+  Carousel,
+  Categories,
+  Footer,
+  Nav,
+  NewProduct,
+  WhatsappButton,
+} from '~/components'
 
 export default function Index() {
   return (
@@ -7,6 +15,9 @@ export default function Index() {
       <Carousel />
       <NewProduct />
       <WhatsappButton />
+      <Categories />
+      <ArticleList />
+      <Footer />
     </>
   )
 }
